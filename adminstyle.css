@@ -1,0 +1,215 @@
+/* DISEÑO LOGIN */
+.contenedor {
+    width: 50%;
+    font-family: Verdana;
+}
+
+.log-lbl {
+    color: #fff;
+    font-size: 20px;
+}
+.log-input {
+    border: none;
+    color: #fff;
+    padding: 10px;
+    width: 50%;
+    border-radius: 4px;
+    border-bottom: #394867;
+    background: rgba(0, 0, 0, 6);
+}
+
+body {
+    background-color: #212A3E;
+}
+
+.container {
+    max-width: 100%;
+} 
+
+/* LADO IZQUIERDO */
+.sidebar {
+    font-size: Verdana;
+    text-align: center;
+    background-color: #212A3E;
+    color: #fefefe;
+    float: left;
+    width: 15%;
+
+}
+/* LADO DERECHO */
+.content {
+    font-size: Verdana;
+    background-color: #212A3E;
+    float: right;
+    width: 85%;
+}
+
+/* BOTONES ADMIN Y EMPLEADO */
+.btn-ademp {
+    width: 50%;
+    margin: auto;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 7px 7px 7px 7px;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    background-color: #9BA4B5;
+    justify-content: center;
+    transform: translate(-15%, 150px);
+}   
+
+/* LABEL E INPUTS */
+label {
+    font-size: 25px;
+    font-size: Verdana;
+}
+.adm-input {
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    border-radius: 3px;
+    border-bottom: 4px solid #394867;
+    width: 96%;
+    padding: 13px;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* SELECT Y OPTION */
+select {
+    background-color: #212A3E;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+    font-family: Verdana;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+/* TABLA Y SUS CELDAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: Verdana;
+}
+th, td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+    font-size: Verdana;
+}
+th {
+    color: #F1F6F9;
+}
+td {
+    color: #fff;
+    border-bottom: #fff;
+}
+
+/* REGISTRO DE EMPLEADO */
+.popup-button {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 10px 5px 10px 5px;
+    background-color: #9BA4B5;
+    font-size: 15px;
+    cursor: pointer;
+    font-size: Verdana;
+    border-radius: 3px;
+}
+
+/* TÍTULO PÁGINA Y DEL FORM */
+h2 {
+    font-size: Verdana;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* TÍTULO TABLA */
+.bln-tittle {
+    color: #fff;
+}
+
+/* ICONOS ACTUALIZAR Y ELIMINAR */
+.btn-edit {
+    padding: 10px 5px 10px 5px;
+    cursor: pointer;
+    font-size: Verdana;
+}
+.btn-delete {
+    padding: 10px 5px 10px 5px;
+    cursor: pointer;
+    font-size: Verdana;
+}
+
+/* BOTÓN SALIDA */
+.btn-exit {
+    background-color: red;
+    font-size: 15px;
+    font-family: Verdana;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* BOTONES DEL SIDEBAR */
+.btn {
+    font-size: 20px;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    font-size: Verdana;
+    border-radius: 4px;
+}
+.btn:hover {
+    background-color: #888;
+}
+
+/* BOTONES REGISTRO Y GUARDAR */
+.btn-reg {
+    position: relative;
+    padding: 10px 5px 10px 5px;
+    background-color: #9BA4B5;
+    font-size: 15px;
+    cursor: pointer;
+    font-size: Verdana;
+    border-radius: 3px;
+}
+
+/* VENTANA MODAL */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.popup input {
+    margin-bottom: 10px;
+}
+
+/* FORMULARIO */
+.popup-content {
+    font-size: Verdana;
+    background-color: #9BA4B5;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #000;
+    width: 50%;
+    color: #000;
+}
+
+/* LA X DE CERRAR EL POPUP */
+.close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover {
+    cursor: pointer;
+}
